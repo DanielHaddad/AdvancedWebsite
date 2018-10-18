@@ -1,0 +1,51 @@
+body
+Div { border:10px solid gold;
+	Background-color:#333;
+	Display:block;
+	Padding: 200px, 10px, 20px, 10px;
+}
+	.header {
+	Background-color: #F1F1F1;
+	text-align: center; 
+	padding; 20px
+}
+	.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+	.topnav a {	
+		float: left;
+		display: block;
+		color: #F2F2F2;
+		text-allign: center;
+		padding: 14px 16px;
+		text-decoration: none;
+}
+	.topnav a:hover {
+	background-color: #ddd;
+	color: black; 
+}
+
+	.footer {
+		background-color: black
+		position: absolute; 
+		text-align: center;
+		color: white;
+		bottom: 0;
+		width: 100%;
+}
+
+.column { 
+	float: left;
+	width: 33.33%;
+	color: white;
+	text-align: center;
+	length: 50%;	
+}
+.columnside { 
+	float: right;
+	width: 29%;
+	color: white;
+	text-align: center;
+	length: 50%;	
+}
